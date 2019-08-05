@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-image: radial-gradient(rgb(0, 225, 255), rgb(0, 119, 255));
+    font-family: sans-serif;
+    color: white;
+}
+.container {
+    padding: 0 10%;
+}
+.container h2 {
+    margin-bottom: 10%;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content .timezone {
+    font-size: 30px;
+    height: 20vh;
+}
+.content .temperature {
+    height: 20vh;
+    font-size: 40px;
+    display: flex;
+}
+.content .temperature span {
+    margin-left: 6px;
+}
+.content .icons {
+    text-align: center;
+    margin: auto;
+}
+.content .temperature-status {
+    font-size: 20px;
+}
